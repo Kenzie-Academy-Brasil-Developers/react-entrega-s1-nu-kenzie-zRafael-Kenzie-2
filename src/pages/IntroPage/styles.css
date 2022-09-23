@@ -1,0 +1,97 @@
+.index-style {
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 48px;
+  color: #ffffff;
+  height: 100vh;
+  background-color: #212529;
+}
+
+
+.text-index {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.index-title {
+  width: 244px;
+  margin-top: 30px;
+  height: 100px;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.index-span {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  width: 260px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.img-KenzieLogo {
+  width: 100%;
+  width: 122.68px;
+  height: 19.53px;
+}
+
+
+.login-btn {
+  width: 241px;
+  height: 48px;
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.index-figure-style {
+  width: 593px;
+  height: 593px;
+}
+
+.index-figure-style {
+  display: flex;
+  align-items: center;
+}
+
+.main-img {
+  display: none;
+  align-items: center;
+}
+
+@media only screen and (min-width: 750px) {
+  .main-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .text-index {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .index-title {
+    width: 347px;
+    margin-top: 30px;
+    height: 90px;
+    font-size: 38px;
+  }
+}

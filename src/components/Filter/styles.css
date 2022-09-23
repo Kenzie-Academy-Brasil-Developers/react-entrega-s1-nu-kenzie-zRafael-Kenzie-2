@@ -1,0 +1,83 @@
+.button {
+    height: 40px;
+    margin-right: 16px;
+    cursor: pointer;
+  }
+  
+  .button:first-child {
+    background-color: #e9ecef;
+    border: 1.4px solid #e9ecef;
+    border-radius: 8px;
+    width: 69px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343a40;
+  }
+  
+  .button:first-child:link {
+    background-color: #1c78d4;
+    color: #f8f9fa;
+  }
+  
+  .button:first-child:hover {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .button:first-child:focus {
+    background-color: #fd377e;
+    color: #f8f9fa;
+  }
+  
+  .button:nth-child(2) {
+    background-color: #e9ecef;
+    width: 87px;
+    height: 40px;
+    border: 1.4px solid #e9ecef;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343a40;
+  }
+  
+  .button:nth-child(2):hover {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .button:nth-child(2):focus {
+    background-color: #fd377e;
+    color: #f8f9fa;
+  }
+  
+  .button:nth-child(3) {
+    margin-right: 0;
+    background-color: #e9ecef;
+    width: 87px;
+    height: 40px;
+    border: 1.4px solid #e9ecef;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343a40;
+  }
+  
+  .button:nth-child(3):hover {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .button:nth-child(3):focus {
+    background-color: #fd377e;
+    color: #f8f9fa;
+  }
+  
