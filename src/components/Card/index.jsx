@@ -1,5 +1,5 @@
 import "./style.css";
-import trash from "../../assets/trasg.png";
+import trash from "../../assets/trash.png";
 
 export function Card({ transacao, deleteCard, id }) {
   return (
