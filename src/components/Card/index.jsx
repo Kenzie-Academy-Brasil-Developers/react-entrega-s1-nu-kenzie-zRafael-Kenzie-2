@@ -1,13 +1,12 @@
-import './style.css';
-import trash from "./assets/trash.png"
+import "./style.css";
+import trash from "../../assets/trasg.png";
 
-
-export function Card ({ transacao, deleteCard, id }) {
+export function Card({ transacao, deleteCard, id }) {
   return (
     <>
       <div className="cardList">
         <div
-          className={transacao.type === 'Entrada' ? 'entrada' : 'despesa'}
+          className={transacao.type === "Entrada" ? "entrada" : "despesa"}
         ></div>
         <div className="description-div">
           <div className="description">
@@ -18,10 +17,10 @@ export function Card ({ transacao, deleteCard, id }) {
         <div className="valor-div">
           <div className="value">{`R$ ${transacao.value},00`}</div>
           <button className="trashBtn" onClick={() => deleteCard(id)}>
-            <img src={trash}alt="" />
+            <img src={trash} alt="" />
           </button>
         </div>
       </div>
     </>
   );
-};
+}

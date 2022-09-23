@@ -5,7 +5,7 @@ import { TotalMoney } from "../../components/Total";
 import { List } from "../../components/List";
 import { useState } from "react";
 import { Filtros } from "../../components/Filter";
-import noCard from "./NoCard.png";
+import noCard from "../../assets/NoCard.png";
 
 function Home({ setGoHome }) {
   const [listaTransacoes, setListaTransacoes] = useState([]);
